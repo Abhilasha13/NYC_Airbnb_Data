@@ -49,5 +49,6 @@ Use Jupyter notebook to run the give code.
 
 ## References
 
-[Data Exploration on NYC Airbnb . (n.d.).] (https://www.kaggle.com/dgomonov/data-exploration-on-nyc-airbnb)
-[Airbnb Analysis, Visualization and Prediction. (n.d.)] (https://www.kaggle.com/chirag9073/airbnb-analysis-visualization-and-prediction)
+[Data Exploration on NYC Airbnb . (n.d.).](https://www.kaggle.com/dgomonov/data-exploration-on-nyc-airbnb)
+
+[Airbnb Analysis, Visualization and Prediction. (n.d.)](https://www.kaggle.com/chirag9073/airbnb-analysis-visualization-and-prediction)
