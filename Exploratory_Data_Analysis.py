@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from wordcloud import WordCloud
 
-data = pd.read_excel("/Users/ashutoshshanker/Downloads/Airbnb_V1_clean.xlsx")
+data = pd.read_excel("./Airbnb_V1_clean.xlsx")
 
 # Summary statistics of dataset:
 # Dataset description
