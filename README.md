@@ -13,7 +13,7 @@ One of the Kaggle notebooks, Airbnb NYC Price Prediction, helped us get an under
 
 ## DATA COLLECTION AND DATASET DESCRIPTION: 
 
-This dataset was taken from ![insideairbnb](http://insideairbnb.com/get-the-data.html) which is publicly available. This dataset contains listing activity and the various metrics used to identify how popular the property is and the factors affecting it. 
+This dataset was taken from [insideairbnb](http://insideairbnb.com/get-the-data.html) which is publicly available. This dataset contains listing activity and the various metrics used to identify how popular the property is and the factors affecting it. 
 
 The dataset contains 49k+ rows and 76 attributes, containing 36 categorical variable and 40 continuous variables are present.
 
@@ -49,5 +49,5 @@ Use Jupyter notebook to run the give code.
 
 ## References
 
-1. Data Exploration on NYC Airbnb . (n.d.). Retrieved from ![Kaggle](https://www.kaggle.com/dgomonov/data-exploration-on-nyc-airbnb)
-2. Airbnb Analysis, Visualization and Prediction. (n.d.). Retrieved from ![Kaggle](https://www.kaggle.com/chirag9073/airbnb-analysis-visualization-and-prediction)
+1. [Data Exploration on NYC Airbnb . (n.d.).] (https://www.kaggle.com/dgomonov/data-exploration-on-nyc-airbnb)
+2. [Airbnb Analysis, Visualization and Prediction. (n.d.).](https://www.kaggle.com/chirag9073/airbnb-analysis-visualization-and-prediction)
