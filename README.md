@@ -6,11 +6,6 @@ Online booking systems have been popular since a long time. The shift to the boo
 
 Airbnb is an online marketplace for arranging or offering lodging, primarily homestays, or tourism experiences since 2008. Today, Airbnb became one of a kind service that is used and recognized by the whole world. Amongst the various places in the world popular for renting out Airbnb’s, NYC stands out to be a contender. NYC is the most populous city in the United States and also one of the most popular tourism and business place in the world. These two factors combined, gives us a successful data analysis project to work upon. 
 
-## RELEVANT PRIOR WORK: 
-While learning more about the dataset, I came across several Kaggle notebooks which used similar kind of dataset for performing their analysis, to help get an idea of the various insights that can be gained from the dataset and various perspectives. 
-
-One of the Kaggle notebooks, Airbnb NYC Price Prediction, helped us get an understanding about the dependency relationship of price attribute with other attributes, while the other, NYC Airbnb, aided in the visualizations through which other attributes could be shown. 
-
 ## DATA COLLECTION AND DATASET DESCRIPTION: 
 
 This dataset was taken from [insideairbnb](http://insideairbnb.com/get-the-data.html) which is publicly available. This dataset contains listing activity and the various metrics used to identify how popular the property is and the factors affecting it. 
