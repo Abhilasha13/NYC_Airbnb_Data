@@ -1,4 +1,4 @@
-# NYC_Airbnb_data
+# NYC_Airbnb_Data
 Exploratory Data Analysis and Data Preprocessing was performed on New York City Airbnb dataset
 
 ## INTRODUCTION: 
@@ -50,14 +50,14 @@ For feature selection, Random Forest ensemble algorithm was used. This algorithm
 ## DATA PREDICTION
 To understand the concept of dynamic pricing and affordability of properties better, predictive analysis was performed. This helped to decide what could be the best predictive model for price. For predictive modelling, Classification algorithms (Supervised Learning) and Regression was used.
 
-### Classification Algorithms:
+### CLASSIFICATION ALGORITHMS:
 To execute the classification algorithms, the preprocessed dataset was first divided into training and testing sets. 70% data was chosen randomly to build the training set and the rest 30% was used to create the testing set. The training set was then used to train the model for prediction and then using the testing set the accuracy of prediction was measured. After dividing the data into training and testing sets, the team used Decision tree (C5.0) and Naïve Bayes to predict the price variation. Initially the two algorithms were executed using all the attributes in the dataset.
 
 • Decision Tree – Due to less computational time, and maximum sensitivity, C5.0 Decision tree algorithm was used for prediction. It was observed that the accuracy of prediction using all the attributes was 79.5%. However, after executing the algorithm using the top 8 most important algorithm, it was observed that the accuracy increased to 82.83%.
 
 • Naïve Bayes – Naïve Bayes algorithm was also used for prediction due to its simplicity, good speed and high scalability. The accuracy achieved through Naïve Bayes was approximately 72.61%. A significant increase in the prediction accuracy was observed when the Naïve Bayes algorithm was run using only the top 8 most important features obtained as a result feature selection and correlation.
 
-### Regression Algorithms:
+### REGRESSION ALGORITHMS:
 The most important attributes were taken into a separate dataframe and the null values were checked. The only column having null values is reviews_per_month. These null values were replaced with zeroes. Then the categorical columns were identified and one hot encoding was performed on them. This is done as machine learning models cannot operate on label data directly. Thus the categorical variables are converted to numeric variables.
 
 • Linear Regression – A multiple linear regression model was run to determine the price of a property. Linear regression gives the baseline model upon which the model is improved with further techniques. Linear regression was chosen, since it is fairly simple and requires the least computational time. The R2 value of 0.094062014755396, a mean absolute error of 78.74113382109259 and a mean squared error of 316.3492954986619 was achieved.
