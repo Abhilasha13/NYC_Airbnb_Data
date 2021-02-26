@@ -40,14 +40,14 @@ The count of room type available in different neighborhood locations is also sho
 
 One of the problem statements is to create a geospatial economic model to determine the price of an Airbnb and so, the distribution of Airbnb listings and the price variation across the neighborhood areas was analyzed. It can be inferred that the Airbnb’s are less in demand at Staten Island and it might also be possible that there are a lesser number of visitors or tourists who visit here for the purpose of business or sight-seeing. Hence, this may also be one of the reasons why the price of a listing in Staten Island is low. Also, it can be observed that Brooklyn and Queens have a greater distribution of Listings and so, the price of properties in these places is moderate.
 
-## Feature Selection
+## FEATURE SELECTION
 In order to find the relationship between two or more variables and to understand how the different features are related on our dependent variable (i.e. ‘price’), correlation was performed. The pre-processed dataset consists approximately 28 continuous variables and so, Pearson’s correlation was used to select the most important features which was also used for our predictive analysis.
 
 It was observed that the variables like Accommodates, bedrooms, beds, and availability_365 have a positive correlation with price. Also, longitude and number of reviews have a negative correlation with price. There was no correlation between ‘id’ and ‘price’.
 
 For feature selection, Random Forest ensemble algorithm was used. This algorithm was run to perform feature selection on the categorical variables. This helped to extract only the required or the most important features and eliminate the less significant features. The variables that contributed most to our dependent variables were room_type, binned_accomodate, neighborhood_group_cleansed, binned_beds, binned_bedrooms, binned_host_list_count and binned_hyear.
 
-## Data Prediction
+## DATA PREDICTION
 To understand the concept of dynamic pricing and affordability of properties better, predictive analysis was performed. This helped to decide what could be the best predictive model for price. For predictive modelling, Classification algorithms (Supervised Learning) and Regression was used.
 
 ### Classification Algorithms:
@@ -68,7 +68,7 @@ The most important attributes were taken into a separate dataframe and the null 
 
 To tackle the issue of overfitting, hyperparameter tuning was performed through a trial method. This involves pruning the trees by tuning the parameters so that a better result was obtained. As a result, R2 value of 0.5148539953972002, a mean absolute error of 68.67836498963754 and a mean squared error of 258.22717606117556 was obtained.
 
-## Conclusion
+## CONCLUSION
 1. The results from the implemented models, and the exploratory data analysis showed that Airbnb is widespread across different localities in New York and the price depends mostly on the location and the type of room or property that is being booked. 
 
 2. The impact of amenities on the pricing of a property was also explored. Fire-safety is an important factor while determining price of a property. Smoke alarms are important in determining the reliability of a property. 
@@ -84,11 +84,11 @@ Couple of challenges and blockers were encountered while trying to work with the
 
 2. Prior to pre-processing, the bathroom attribute had values such as “Half-bath”, “Shared-bath”, “2 Private Baths”. The data was split into two columns and certain assumptions were made to clean up the data.
 
-## Usage Instruction
+## USAGE INSTRUCTION
 
 Use Jupyter notebook to run the give code.
 
-## References
+## REFERENCES
 
 [Data Exploration on NYC Airbnb . (n.d.).](https://www.kaggle.com/dgomonov/data-exploration-on-nyc-airbnb)
 
